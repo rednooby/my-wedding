@@ -18,30 +18,30 @@ const CONFIG = {
 
   // ── 2. 메인 (히어로) ──
   groom: {
-    name: "신랑",
+    name: "최진헌",
     nameEn: "Groom",
-    father: "아버지",
-    mother: "어머니",
+    father: "최종규",
+    mother: "윤정미",
     fatherDeceased: false,
     motherDeceased: false
   },
 
   bride: {
-    name: "신부",
+    name: "이윤영",
     nameEn: "Bride",
-    father: "아버지",
-    mother: "어머니",
-    fatherDeceased: false,
+    father: "이관도",
+    mother: "오미현",
+    fatherDeceased: true,
     motherDeceased: false
   },
 
   wedding: {
-    date: "2026-05-09",
-    time: "13:00",
-    venue: "예식장 이름",
-    hall: "그랜드홀 5층",
-    address: "서울특별시 강남구 테헤란로 123",
-    tel: "02-1234-5678"
+    date: "2026-09-13",
+    time: "14:00",
+    venue: "더 레이나 웨딩홀",
+    hall: "지하 1층 단독홀",
+    address: "경기도 의정부시 호암로 95 에벤에셀관 B1F",
+    tel: "031-876-2888",
   },
 
   // ── 3. 인사말 ──
@@ -53,32 +53,31 @@ const CONFIG = {
   // ── 4. 우리의 이야기 ──
   story: {
     title: "우리의 이야기",
-    content: "서로 다른 길을 걷던 두 사람이\n하나의 길을 함께 걷게 되었습니다.\n\n여러분을 소중한 자리에 초대합니다."
-  },
+    content: "'당신은 내가 더 좋은 사람이 되고 싶게 만들어요.' \n-영화<이보다 더 좋을 순 없다>\n\n 서로를 만나기 전보다 더 나은 내일을 꿈꾸게\n되었습니다.\n부족한 부분을 채워주고, \n잘하는 부분은 아낌없이 응원하며\n매일 조금씩 더 좋은 사람이 되어 곁을 지키겠습니다.\n저희 두사람이 하나로 거듭나는 날, \n함께해 주시길 바랍니다. "
+  }, 
 
   // ── 5. 오시는 길 ──
   mapLinks: {
-    kakao: "https://map.kakao.com/",
-    naver: "https://map.naver.com/"
+    kakao: "https://kko.to/btYkDZffUE",
+    naver: "https://naver.me/5pwowzMl"
   },
 
   // ── 6. 마음 전하실 곳 ──
   accounts: {
     groom: [
-      { role: "신랑", name: "홍길동", bank: "국민은행", number: "000-000-000000" },
-      { role: "아버지", name: "홍판서", bank: "신한은행", number: "000-000-000000" },
-      { role: "어머니", name: "김부인", bank: "우리은행", number: "000-000-000000" }
+      { role: "신랑", name: "최진헌", bank: "카카오뱅크", number: "3333-05-9837461" },
+      { role: "아버지", name: "최종규", bank: "우리은행", number: "103-071-83390" },
+      { role: "어머니", name: "윤정미", bank: "신한은행", number: "110-071-106169" }
     ],
     bride: [
-      { role: "신부", name: "김영희", bank: "하나은행", number: "000-000-000000" },
-      { role: "아버지", name: "김사장", bank: "기업은행", number: "000-000-000000" },
-      { role: "어머니", name: "이부인", bank: "농협은행", number: "000-000-000000" }
+      { role: "신부", name: "이윤영", bank: "신한은행", number: "110-285-174687" },
+      { role: "어머니", name: "오미현", bank: "우리은행", number: "097-059487-12-201" }
     ]
   },
 
   // ── 링크 공유 시 나타나는 문구 ──
   meta: {
-    title: "신랑 ♥ 신부 결혼합니다",
-    description: "2026년 5월 9일, 소중한 분들을 초대합니다."
+    title: "최진헌 ♥ 이윤영 결혼합니다",
+    description: "2026년 9월 13일, 소중한 분들을 초대합니다."
   }
 };
