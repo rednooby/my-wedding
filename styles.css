@@ -992,8 +992,9 @@ a {
 
 .location__map-img {
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  /* aspect-ratio: 16 / 10; */
+  height: auto;       /* 가로 너비에 맞춰 세로 높이가 자동으로 조절됩니다 */
+  object-fit: contain; /* 이미지 전체가 영역 안에 온전히 들어가도록 합니다 */
 }
 
 .location__links {
