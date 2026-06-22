@@ -984,10 +984,13 @@ a {
 }
 
 .location__map {
-  margin-bottom: var(--spacing-lg);
+  /* margin-bottom: var(--spacing-lg);
   border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: 0 4px 24px rgba(232, 223, 240, 0.25);
+  box-shadow: 0 4px 24px rgba(232, 223, 240, 0.25); */
+  margin-bottom: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 24px rgba(232, 223, 240, 0.25); 
 }
 
 .location__map-img {
